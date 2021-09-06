@@ -4,7 +4,7 @@ from base64 import b64encode, b64decode
 from Crypto import Random
 
 
-class AESCipher(object):
+class bb(object):
     def __init__(self, key):
         self.block_size = AES.block_size
         self.key = hashlib.sha256(key.encode()).digest()
